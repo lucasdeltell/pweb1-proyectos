@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  background-color: #edebe1;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: justify;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+.nombre {
+  margin: 50px;
+  position: absolute;
+  display: flex;
+  font-weight: bold;
+}
+
+.imagen {
+  margin: 50px 500px;
+  display: flex;
+  justify-content: right;
+}
+
+.imagen img {
+  width: 250px;
+  height: 250px;
+}
+
+.datos {
+  position: absolute;
+  bottom: 680px;
+  margin-left: 15px;
+}
+
+.datos ul {
+  list-style: none;
+  text-align: justify;
+}
+
+hr {
+  display: block;
+  margin: 0 500px;
+  width: 800px;
+  height: 2px;
+  background-color: #000;
+}
+
+.objetivo {
+  margin: 50px;
+}
+
+.formación-a {
+  margin: 50px;
+}
+
+.formación-c {
+  margin: 50px;
+}
+
+.experiencia {
+  margin: 50px;
+}
+
+.experiencia ul {
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.idiomas {
+  margin: 50px;
+}
+
+.otros-datos {
+  margin: 50px;
+}
+
+.otros-datos ul {
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.formulario {
+  position: absolute;
+  top: 500px;
+  left: 1000px;
+}
+
+fieldset legend {
+  font-weight: bold;
+}
+
+.formulario fieldset {
+  width: 300px;
+  padding: 30px;
+  text-align: center;
+  background-color: #474747;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+
+.formulario input {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #edebe1;
+  border-radius: 8px;
+  border: 2px solid #000;
+  box-shadow: 1px 5px 8px black;
+}
+
+.formulario button {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #edebe1;
+  transition: opacity, backround, color 500ms;
+}
+
+button:hover {
+  opacity: 0.5;
+  background: #000;
+  color: white;
+}
